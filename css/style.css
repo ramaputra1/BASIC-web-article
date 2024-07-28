@@ -2,9 +2,10 @@
   font-family: sans-serif;
 }
 
+/*Body Container or Screen*/
 .container {
   width: 70%;
-  background-image: url(/Users/new/Documents/w-latihan1-artikel/moroccan-flower.png);
+  background-image: url(background.png);
   border: lightgrey solid 1px;
   margin: 0 auto;
   padding: 0 auto;
@@ -12,19 +13,20 @@
   flex-wrap: wrap;
 }
 
+/*Body Content Full*/
 .main-content {
   background-color: white;
   flex-grow: 1;
 }
 
-h1,
-h6,
-article p {
+/*Title Header Website*/
+.title-web {
   color: black;
   text-align: left;
   padding: 0 5%;
 }
 
+/*Navbar*/
 .navbar {
   padding: 0% 5%;
   padding-bottom: 1.5%;
@@ -38,33 +40,51 @@ nav a {
   margin-right: 3%;
 }
 
-.sampul {
+/*Cover Content*/
+.cover {
   height: 400px;
   background-size: cover;
   background-position: 0 -10px;
   padding-top: 5%;
-  background-image: url(/Users/new/Documents/w-latihan1-artikel/product.jpg);
+  background-image: url(sampul.jpg);
   border-top: 5px solid pink;
   border-bottom: 5px solid lightgreen;
 }
 
-/*Footer*/
-/*
-.footer {
-  height: 50px;
-  background-color: rgb(55, 54, 54);
-  text-align: center;
+/*Article*/
+.title-article,
+.text-article {
+  color: black;
+  text-align: left;
+  padding: 0 5%;
 }
 
-/*Rapaham position*/
-/*
-.footer-p {
-  color: white;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}*/
+.main-article {
+  width: 60%;
+  float: left;
+}
 
+.main-sidebar {
+  width: 40%;
+  float: right;
+}
+
+.p-sidebar {
+  padding-right: 5%;
+}
+
+.profil {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-right: 5%;
+}
+
+.clear1 {
+  clear: left;
+}
+
+/*Footer*/
 .footer {
   background-color: rgb(99, 99, 99);
   padding: 5px;
