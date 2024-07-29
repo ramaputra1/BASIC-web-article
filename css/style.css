@@ -3,14 +3,20 @@
 }
 
 /*Body Container or Screen*/
+body {
+  background-image: url(background.png);
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
 .container {
   width: 70%;
-  background-image: url(background.png);
   border: lightgrey solid 1px;
-  margin: 0 auto;
+  margin: 80px auto;
   padding: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 /*Body Content Full*/
@@ -24,6 +30,19 @@
   color: black;
   text-align: left;
   padding: 0 5%;
+}
+
+/*Link Ribbon*/
+.instagram {
+  width: 200px;
+  height: 200px;
+  background-image: url(instagram-ribbon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  top: -25px;
+  right: -59px;
 }
 
 /*Navbar*/
